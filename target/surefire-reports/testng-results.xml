@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2019-02-20T14:08:53Z" name="sample" finished-at="2019-02-20T14:08:59Z" duration-ms="5649">
+    <groups>
+    </groups>
+    <test started-at="2019-02-20T14:08:53Z" name="ChromeTest" finished-at="2019-02-20T14:08:59Z" duration-ms="5649">
+      <class name="GoogleHomepage2">
+        <test-method signature="TestTwo()[pri:0, instance:GoogleHomepage2@618b19ad]" started-at="2019-02-20T19:38:53Z" name="TestTwo" finished-at="2019-02-20T19:38:59Z" duration-ms="5635" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestTwo -->
+      </class> <!-- GoogleHomepage2 -->
+    </test> <!-- ChromeTest -->
+    <test started-at="2019-02-20T14:08:53Z" name="FFTest" finished-at="2019-02-20T14:08:59Z" duration-ms="5646">
+      <class name="GoogleHomepage">
+        <test-method signature="TestOne()[pri:0, instance:GoogleHomepage@368f2016]" started-at="2019-02-20T19:38:53Z" name="TestOne" finished-at="2019-02-20T19:38:59Z" duration-ms="5631" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestOne -->
+      </class> <!-- GoogleHomepage -->
+    </test> <!-- FFTest -->
+  </suite> <!-- sample -->
+</testng-results>
