@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="68883bb9-1244-4631-905f-c886f4ee3f58" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/GoogleHomepage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/GoogleHomepage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/GoogleHomepage2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/GoogleHomepage2.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -26,7 +24,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GoogleHomepage.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="GoogleHomepage.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/GoogleHomepage.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="210">
@@ -38,7 +36,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GoogleHomepage2.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="GoogleHomepage2.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/GoogleHomepage2.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="195">
@@ -119,8 +117,8 @@
         <option value="$PROJECT_DIR$/src/testng.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/Dockerfile" />
-        <option value="$PROJECT_DIR$/src/test/java/GoogleHomepage.java" />
         <option value="$PROJECT_DIR$/src/test/java/GoogleHomepage2.java" />
+        <option value="$PROJECT_DIR$/src/test/java/GoogleHomepage.java" />
       </list>
     </option>
   </component>
@@ -602,20 +600,20 @@
         <state relative-caret-position="-4" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/GoogleHomepage.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/GoogleHomepage2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="49" selection-start-line="14" selection-start-column="49" selection-end-line="14" selection-end-column="49" />
+        <state relative-caret-position="195">
+          <caret line="13" column="49" selection-start-line="13" selection-start-column="49" selection-end-line="13" selection-end-column="49" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/GoogleHomepage2.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/GoogleHomepage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="49" selection-start-line="13" selection-start-column="49" selection-end-line="13" selection-end-column="49" />
+        <state relative-caret-position="210">
+          <caret line="14" column="49" selection-start-line="14" selection-start-column="49" selection-end-line="14" selection-end-column="49" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
