@@ -11,7 +11,7 @@ public class GoogleHomepage2 {
     @Test
     public void TestTwo() throws MalformedURLException {
 
-        URL local = new URL("http://172.17.0.2:4444/wd/hub");//runs on docker 3
+        URL local = new URL("http://172.17.0.2:4244/wd/hub");//runs on docker 3
         WebDriver driver = new RemoteWebDriver(local, DesiredCapabilities.firefox());
         String baseUrl = "https://www.google.com/";
         System.out.println("This is instance 2");

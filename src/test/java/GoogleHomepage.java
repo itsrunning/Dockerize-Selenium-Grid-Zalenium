@@ -9,7 +9,6 @@ import java.net.URL;
 
 public class GoogleHomepage {
 
-
     @Test
     public void TestOne() throws MalformedURLException {
 
@@ -19,8 +18,6 @@ public class GoogleHomepage {
         System.out.println("This is instance 2");
         driver.get(baseUrl);
         driver.close();
-
-
 
     }
 }
