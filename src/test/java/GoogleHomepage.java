@@ -13,9 +13,7 @@ public class GoogleHomepage {
     @Test
     public void TestOne() throws MalformedURLException {
 
-       // System.setProperty("webdriver.chrome.driver", "/Users/vidhyat/Desktop/Tests/chromedriver");
-       //  WebDriver driver = new ChromeDriver();
-        URL local = new URL("http://172.17.0.2:4444/wd/hub");
+        URL local = new URL("http://172.17.0.2:4444/wd/hub"); //runs on chrome docker 
         WebDriver driver = new RemoteWebDriver(local, DesiredCapabilities.chrome());
         String baseUrl = "https://www.google.com/";
         System.out.println("This is instance 2");
