@@ -3,36 +3,62 @@ import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.Status;
 import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
+import org.testng.annotations.AfterClass;
+import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 import java.net.MalformedURLException;
 import java.net.URL;
 
+
 public class GoogleHomepage {
 
-    @Test
-    public void TestOne() throws MalformedURLException {
+    WebDriver driver;
+    ExtentTest test;
+    ExtentReports extent;
+
+    @BeforeTest()
+    @Parameters("browserName")
+    public void setup(String browserName) throws MalformedURLException {
 
         ExtentHtmlReporter htmlReporter = new ExtentHtmlReporter("extent.html");
-
-        ExtentReports extent = new ExtentReports();
+        extent = new ExtentReports();
         extent.attachReporter(htmlReporter);
+        test = extent.createTest("ChromeTest", "Google page opens in chrome");
+        URL local = new URL("http://172.17.0.2:4444/wd/hub");
 
-        ExtentTest test = extent.createTest("MyFirstTest", "Sample description");
+        if(browserName.equalsIgnoreCase("Chrome")){
+            driver = new RemoteWebDriver(local,DesiredCapabilities.chrome());
+        }
+        else{
+            driver = new RemoteWebDriver(local,DesiredCapabilities.firefox());
+        }
+    }
 
 
-        URL local = new URL("http://172.17.0.2:4144/wd/hub"); //runs on chrome docker
-      //  URL local = new URL("http://0.0.0.0:4444/wd/hub");
-        WebDriver driver = new RemoteWebDriver(local, DesiredCapabilities.chrome());
+    @Test
+    public void TestOne() throws InterruptedException {
+
         String baseUrl = "https://www.google.com/";
-        System.out.println("This is instance 2");
-        test.log(Status.INFO, "This step shows usage of log(status, details)");
+        Thread.sleep(10000);
+        System.out.println("This is chrome");
+        test.log(Status.INFO, "page opened in chrome");
         driver.get(baseUrl);
         driver.close();
-        extent.flush();
 
     }
+
+    @AfterClass
+    public void TearDown(){
+
+        if(driver!=null){
+            driver.quit();
+        }
+        extent.flush();
+    }
+
+
 }

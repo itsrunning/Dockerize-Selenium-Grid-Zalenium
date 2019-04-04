@@ -1,0 +1,41 @@
+version: "3"
+services:
+  selenium-hub:
+    restart: always
+    image: selenium/hub
+    environment:
+      GRID_MAX_SESSIONS: 5
+    ports:
+      - 4444:4444
+  selenium-chrome:
+    restart: always
+    image: selenium/node-chrome:3.14
+    volumes:
+      - /dev/shm:/dev/shm
+    ports:
+      - 5901:5900
+    stdin_open: true
+    depends_on:
+      - selenium-hub
+    environment:
+      HUB_HOST: hub
+      NODE_MAX_INSTANCES: 10
+      NODE_MAX_SESSION: 10
+    links:
+      - selenium-hub:hub
+  selenium-firefox:
+      restart: always
+      image: selenium/node-firefox:3.9
+      volumes:
+        - /dev/shm:/dev/shm
+      ports:
+        - 5902:5900
+      stdin_open: true
+      depends_on:
+        - selenium-hub
+      environment:
+        HUB_HOST: hub
+        NODE_MAX_INSTANCES: 10
+        NODE_MAX_SESSION: 10
+      links:
+        - selenium-hub:hub

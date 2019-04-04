@@ -9,8 +9,19 @@
       <change beforePath="$PROJECT_DIR$/StandaloneChromeDebug/README.md" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/StandaloneChromeDebug/clear_x_locks.sh" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/StandaloneChromeDebug/entry_point.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/StandaloneFirefoxDebug/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/StandaloneFirefoxDebug/README-short.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/StandaloneFirefoxDebug/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/StandaloneFirefoxDebug/selenium.conf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/StandaloneFirefoxDebug/start-selenium-standalone.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chromedriver" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geckodriver" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/GoogleHomepage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/GoogleHomepage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/GoogleHomepage2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/GoogleHomepage2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/GoogleHomepage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/GoogleHomepage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/GoogleHomepage2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/GoogleHomepage2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -21,37 +32,61 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="TestAutomationParallelExe" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="testng.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/testng.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" selection-start-line="8" selection-end-line="12" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GoogleHomepage.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/GoogleHomepage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="339">
-              <caret line="27" column="46" selection-start-line="27" selection-start-column="46" selection-end-line="27" selection-end-column="46" />
+            <state relative-caret-position="135">
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <marker date="1554291100342" expanded="true" signature="165:319" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GoogleHomepage2.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="18" column="20" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GoogleHomepage2.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/GoogleHomepage2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="49" selection-start-line="13" selection-start-column="49" selection-end-line="13" selection-end-column="49" />
+            <state relative-caret-position="693">
+              <caret line="56" lean-forward="true" selection-start-line="56" selection-end-line="56" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GoogleHomepage.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/GoogleHomepage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="167">
+              <caret line="30" column="46" selection-start-line="30" selection-start-column="36" selection-end-line="30" selection-end-column="46" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="docker-compose.yaml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/docker-compose.yaml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -61,15 +96,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="105">
               <caret line="7" column="21" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="351">
-              <caret line="59" column="21" selection-start-line="59" selection-start-column="21" selection-end-line="59" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -91,16 +117,16 @@
       <list>
         <option value="$PROJECT_DIR$/src/testng.xml" />
         <option value="$PROJECT_DIR$/Dockerfile" />
-        <option value="$PROJECT_DIR$/src/test/java/GoogleHomepage2.java" />
         <option value="$PROJECT_DIR$/testng.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/docker-compose.yaml" />
         <option value="$PROJECT_DIR$/src/test/java/GoogleHomepage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/GoogleHomepage2.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="x" value="97" />
-    <option name="y" value="343" />
+    <option name="y" value="23" />
     <option name="width" value="1440" />
     <option name="height" value="797" />
   </component>
@@ -110,6 +136,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -121,6 +148,12 @@
               <item name="TestAutomationParallelExe" type="b2602c69:ProjectViewProjectNode" />
               <item name="Tests" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TestAutomationParallelExe" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Tests" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="TestAutomationParallelExe" type="b2602c69:ProjectViewProjectNode" />
@@ -140,13 +173,15 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="AndroidView" />
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/vidhyat/Desktop/Projects/Tests/src/test/java/GoogleHomepage.java" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -165,7 +200,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.GoogleHomepage">
+  <component name="RunManager" selected="TestNG./Users/vidhyat/Desktop/Projects/Tests/testng.xml">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -195,6 +230,52 @@
       <option name="METHOD_NAME" />
       <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration name="GoogleHomepage2" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="PageFactoryFramework" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="GoogleHomepage2" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration name="GoogleHomepage2.TestTwo" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="PageFactoryFramework" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="GoogleHomepage2" />
+      <option name="METHOD_NAME" value="TestTwo" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -255,11 +336,15 @@
     <list>
       <item itemvalue="TestNG./Users/vidhyat/Desktop/Projects/Tests/testng.xml" />
       <item itemvalue="TestNG.GoogleHomepage" />
+      <item itemvalue="TestNG.GoogleHomepage2" />
+      <item itemvalue="TestNG.GoogleHomepage2.TestTwo" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.GoogleHomepage" />
         <item itemvalue="TestNG./Users/vidhyat/Desktop/Projects/Tests/testng.xml" />
+        <item itemvalue="TestNG.GoogleHomepage2.TestTwo" />
+        <item itemvalue="TestNG.GoogleHomepage2" />
+        <item itemvalue="TestNG.GoogleHomepage" />
       </list>
     </recent_temporary>
   </component>
@@ -277,16 +362,34 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="_Users_vidhyat_Desktop_Projects_Tests_testng_xml - 2019.02.19 at 16h 49m 33s.xml">
+    <history-entry file="GoogleHomepage2_TestTwo - 2019.04.03 at 16h 34m 57s.xml">
+      <configuration name="GoogleHomepage2.TestTwo" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="GoogleHomepage2_TestTwo - 2019.04.03 at 16h 35m 25s.xml">
+      <configuration name="GoogleHomepage2.TestTwo" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="GoogleHomepage2_TestTwo - 2019.04.03 at 16h 36m 56s.xml">
+      <configuration name="GoogleHomepage2.TestTwo" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="GoogleHomepage2_TestTwo - 2019.04.03 at 17h 00m 46s.xml">
+      <configuration name="GoogleHomepage2.TestTwo" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_Users_vidhyat_Desktop_Projects_Tests_testng_xml - 2019.04.03 at 17h 02m 20s.xml">
       <configuration name="/Users/vidhyat/Desktop/Projects/Tests/testng.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_Users_vidhyat_Desktop_Projects_Tests_testng_xml - 2019.02.20 at 17h 02m 12s.xml">
+    <history-entry file="_Users_vidhyat_Desktop_Projects_Tests_testng_xml - 2019.04.03 at 17h 05m 07s.xml">
       <configuration name="/Users/vidhyat/Desktop/Projects/Tests/testng.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_Users_vidhyat_Desktop_Projects_Tests_testng_xml - 2019.02.20 at 17h 02m 50s.xml">
+    <history-entry file="_Users_vidhyat_Desktop_Projects_Tests_testng_xml - 2019.04.03 at 17h 21m 00s.xml">
       <configuration name="/Users/vidhyat/Desktop/Projects/Tests/testng.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_Users_vidhyat_Desktop_Projects_Tests_testng_xml - 2019.03.23 at 23h 48m 55s.xml">
+    <history-entry file="_Users_vidhyat_Desktop_Projects_Tests_testng_xml - 2019.04.03 at 17h 46m 31s.xml">
+      <configuration name="/Users/vidhyat/Desktop/Projects/Tests/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_Users_vidhyat_Desktop_Projects_Tests_testng_xml - 2019.04.04 at 10h 16m 35s.xml">
+      <configuration name="/Users/vidhyat/Desktop/Projects/Tests/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_Users_vidhyat_Desktop_Projects_Tests_testng_xml - 2019.04.04 at 10h 18m 05s.xml">
       <configuration name="/Users/vidhyat/Desktop/Projects/Tests/testng.xml" configurationId="TestNG" />
     </history-entry>
   </component>
@@ -300,32 +403,61 @@
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50069445" side_tool="true" weight="0.32900944" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.10208333" side_tool="true" visible="true" weight="0.30896226" />
       <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32900944" />
       <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.8979167" visible="true" weight="0.30896226" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22222222" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.831058" visible="true" weight="0.27916667" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info id="Favorites" order="2" sideWeight="0.16894197" side_tool="true" visible="true" weight="0.27916667" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.8375" weight="0.406639" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.011792453" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="33" />
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="16" lean-forward="true" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="885">
+          <caret line="59" column="21" selection-start-line="59" selection-start-column="21" selection-end-line="59" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/GoogleHomepage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="8" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/testng.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
@@ -564,6 +696,66 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/testng.xml" />
+    <entry file="file://$PROJECT_DIR$/StandaloneChromeDebug/clear_x_locks.sh" />
+    <entry file="file://$PROJECT_DIR$/StandaloneChromeDebug/README.md" />
+    <entry file="file://$PROJECT_DIR$/StandaloneChromeDebug/README-short.txt" />
+    <entry file="file://$PROJECT_DIR$/StandaloneChromeDebug/Dockerfile" />
+    <entry file="file://$PROJECT_DIR$/StandaloneChromeDebug/entry_point.sh" />
+    <entry file="file://$PROJECT_DIR$/extent.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.10/testng-6.10.jar!/org/testng/internal/Invoker.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="12391">
+          <caret line="836" column="88" selection-start-line="836" selection-start-column="88" selection-end-line="836" selection-end-column="88" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-remote-driver/3.3.0/selenium-remote-driver-3.3.0.jar!/org/openqa/selenium/remote/DesiredCapabilities.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="167" selection-start-line="167" selection-end-line="167" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-remote-driver/3.3.0/selenium-remote-driver-3.3.0.jar!/org/openqa/selenium/remote/RemoteWebDriver.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="85" selection-start-line="85" selection-end-line="85" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-remote-driver/3.9.0/selenium-remote-driver-3.9.0.jar!/org/openqa/selenium/remote/RemoteWebDriver.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="117">
+          <caret line="124" selection-start-line="124" selection-end-line="124" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docker-compose.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="20" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testng.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <marker date="1554291100342" expanded="true" signature="165:319" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Dockerfile">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -571,62 +763,101 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/StandaloneChromeDebug/clear_x_locks.sh">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/StandaloneChromeDebug/README.md">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/StandaloneChromeDebug/README-short.txt">
+    <entry file="file://$PROJECT_DIR$/src/test/java/GoogleHomepage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/StandaloneChromeDebug/Dockerfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-12" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/StandaloneChromeDebug/entry_point.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testng.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" selection-start-line="8" selection-end-line="12" selection-end-column="7" />
+        <state relative-caret-position="167">
+          <caret line="30" column="46" selection-start-line="30" selection-start-column="36" selection-end-line="30" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/GoogleHomepage2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="49" selection-start-line="13" selection-start-column="49" selection-end-line="13" selection-end-column="49" />
+        <state relative-caret-position="693">
+          <caret line="56" lean-forward="true" selection-start-line="56" selection-end-line="56" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="59" column="21" selection-start-line="59" selection-start-column="21" selection-end-line="59" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/GoogleHomepage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="339">
-          <caret line="27" column="46" selection-start-line="27" selection-start-column="46" selection-end-line="27" selection-end-column="46" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>PageFactoryFramework</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: backport-util-concurrent:backport-util-concurrent:3.1</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>
