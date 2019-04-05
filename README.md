@@ -10,7 +10,7 @@ Prequiste - [docker](https://www.docker.com/products/docker-desktop)
 
 Clone the repo - https://github.com/itsrunning/Dockerize-Selenium-Grid-Zalenium.git
 
-To set selenium grid, execute the commands :
+To set **Selenium Grid**, execute the commands :
 
 1.  `docker run -d -p 4444:4444 --name selenium-hub selenium/hub` - To get the Selenium Hub running!
 
@@ -30,7 +30,7 @@ Note: "docker ps" command shows the above 3 dockers running. The browser dockers
 7.  For reporting, Extent reports plugin has been integrated. Open the file extent.html in your browser to view HTML reports.
 
 
-Alternatively, The docker compose YAML file consisting of definition of multi container browser dockers. The "docker-compose up" command is used to bring up all the required broswer dockers.
+Alternatively, The ****docker compose** YAML file** consisting of definition of multi container browser dockers. The "docker-compose up" command is used to bring up all the required broswer dockers.
 
 [Zalenium](https://github.com/zalando/zalenium), is a tool which starts a selenium grid in seconds and scales up and down dynamically. It also provide live dashboard where you can view the execution.
 
