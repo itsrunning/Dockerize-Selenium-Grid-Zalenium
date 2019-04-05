@@ -4,5 +4,3 @@ ARG    xml
 ENV xml=$xml
 CMD ["echo", "${xml}"]
 CMD ["mvn","install"]
-CMD ["mvn","compile"]
-CMD ["mvn","package"]
