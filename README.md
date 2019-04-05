@@ -2,7 +2,7 @@
 
 Dockerize tests with Selenium Grid/ docker-compose / Zalenium.
 
-This repository provides you an insight on how to leverage dockers to execute tests on Selenium Grid on multiple browsers. Alternatively, Docker-compose YAML file is also explained for easier Selenium Grid setup. Furthermore, Zalenium, which is a Selenium Grid extension to scale your local grid dynamically with docker containers. It uses docker-selenium to run your tests in Firefox and Chrome locally.
+This repository provides you an insight on how to leverage dockers to execute tests on Selenium Grid on multiple browsers. Alternatively, Docker-compose YAML file is also explained for easier Selenium Grid setup. Furthermore, [Zalenium](https://github.com/zalando/zalenium), which is a Selenium Grid extension to scale your local grid dynamically with docker containers. It uses docker-selenium to run your tests in Firefox and Chrome locally.
 
 In this example we have considered here is a simple selenium test with a combination of java-maven project using testng executed on firefox and chrome dockers.
 
@@ -23,9 +23,9 @@ Note: "docker ps" command shows the above 3 dockers running. The browser dockers
 
 4.  cd /Dockerize-Selenium-Grid-Zalenium/
 
-5.  `docker build . -t mavendocker`
+5.  docker build . -t mavendocker
 
-6.  `docker run mavendocker` - Will execute the tests.
+6.  docker run mavendocker - Will execute the tests.
 
 7.  For reporting, Extent reports plugin has been integrated. Open the file extent.html in your browser to view HTML reports.
 
