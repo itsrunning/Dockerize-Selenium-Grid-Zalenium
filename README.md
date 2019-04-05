@@ -21,11 +21,11 @@ To set **Selenium Grid**, execute the commands :
 
 Note: `"docker ps"` command shows the above 3 dockers running. The browser dockers are registered as nodes to the hub running. Once the grid is up, you can view the hub and nodes(browser dockers) on  [http://172.17.0.2:4444/grid/console](http://172.17.0.2:4444/grid/console). Where 172.17.0.2 is the ip of broswer docker container.
 
-4.  cd /Dockerize-Selenium-Grid-Zalenium/
+4.  `cd /Dockerize-Selenium-Grid-Zalenium/`
 
-5.  docker build . -t mavendocker
+5.  `docker build . -t mavendocker`
 
-6.  docker run mavendocker - Will execute the tests.
+6.  `docker run mavendocker` - Will execute the tests.
 
 7.  For reporting, Extent reports plugin has been integrated. Open the file extent.html in your browser to view HTML reports.
 
