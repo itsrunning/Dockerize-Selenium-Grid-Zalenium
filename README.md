@@ -19,7 +19,7 @@ To set **Selenium Grid**, execute the commands :
 3.  `docker run -d -p 5002:5900 --link selenium-hub:hub -v /dev/shm:/dev/shm selenium/node-chrome` - To get Chrome broswer docker up.
 
 
-Note: "docker ps" command shows the above 3 dockers running. The browser dockers are registered as nodes to the hub running. Once the grid is up, you can view the hub and nodes(browser dockers) on  [http://172.17.0.2:4444/grid/console](http://172.17.0.2:4444/grid/console). Where 172.17.0.2 is the ip of broswer docker container.
+Note: `"docker ps"` command shows the above 3 dockers running. The browser dockers are registered as nodes to the hub running. Once the grid is up, you can view the hub and nodes(browser dockers) on  [http://172.17.0.2:4444/grid/console](http://172.17.0.2:4444/grid/console). Where 172.17.0.2 is the ip of broswer docker container.
 
 4.  cd /Dockerize-Selenium-Grid-Zalenium/
 
