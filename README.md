@@ -23,9 +23,9 @@ Note: "docker ps" command shows the above 3 dockers running. The browser dockers
 
 4.  cd /Dockerize-Selenium-Grid-Zalenium/
 
-5.  docker build . -t mavendocker
+5.  `docker build . -t mavendocker`
 
-6.  docker run mavendocker - Will execute the tests.
+6.  `docker run mavendocker` - Will execute the tests.
 
 7.  For reporting, Extent reports plugin has been integrated. Open the file extent.html in your browser to view HTML reports.
 
